@@ -1,12 +1,11 @@
 #!/bin/bash
-
-count=0
-number=0
+a=0
+b=0
 while read arg
 do
-	count=$(($count+1))
-	number=$(($number+$arg))
+	a=$(($a+1))
+	b=$(($b+$arg))
 done
-dev=$(($number / $count))
-echo $dev
-echo $count
+sred=$(($b / $a))
+echo $sred
+echo $a
