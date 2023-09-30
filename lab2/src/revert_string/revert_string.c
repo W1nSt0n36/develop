@@ -7,9 +7,10 @@ void RevertString(char *str)
     while (str[len] != '\0') {
         len++;
     }
-    for (int i=len-1; i>=0; i--){
-        m +=str[i];
-
+    for (int i=0; i<len/2; i++){
+        m=str[i];
+        str[i]=str[len-i-1];
+        str[len-i -1]=m;
     }
 
 }

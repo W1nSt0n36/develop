@@ -1,0 +1,115 @@
+    1  gcc main.c -o
+    2  cd kab2
+    3  cd lab2
+    4  cd src
+    5  cd swap
+    6  gcc main.c -o
+    7  gcc main.c 
+    8  gcc swap.c 
+    9  gcc swap.c main.c
+   10  cc main.c swap.c -o hello_world
+   11  vim swap.c
+   12  cc main.c swap.c -o hello_world
+   13  vim revers_string.c
+   14  vim revert_string.c
+   15  cc main.o revert_string.o -o hello_world
+   16  cd lab2
+   17  cd src
+   18  cd ..
+   19  cd revert_string
+   20  cc main.o revert_string.o -o hello_world
+   21  cc main.c revert_string.c -o hello_world
+   22  cd ..
+   23  cd swap
+   24  cc main.c swap.c -o hello_world
+   25  cc main.c swap.c -o 
+   26  cc main.c swap.c -o hello_world
+   27  cc -c main.c
+   28  vim revert_string.c
+   29  cd ..
+   30  cd revert_string
+   31  vim revert_string.c
+   32  cc revert_string.c main.c -c 
+   33  cd swap
+   34  cd ..
+   35  cd swap
+   36  gcc main.c swap.c -o hello_world
+   37  ./main.c
+   38  ./hello_world
+   39  git add swap.c
+   40  git commit -m'rgrv'
+   41  git push origin master
+   42  gcc main.c revert_string.c -o hello_world
+   43  cd ..
+   44  cd revert_string
+   45  gcc main.c revert_string.c -o hello_world
+   46  vim main.c
+   47  gcc main.c revert_string.c -o hello_world
+   48  ./hello_world
+   49  gcc main.c revert_string.c -o revert
+   50  ./revert
+   51  ./revert<'abcdef'
+   52  cd lab2
+   53  cd revert_string
+   54  cd src
+   55  cd revert_string
+   56  gcc main.c revert_string.c -o hello_world
+   57  touch revert.txt
+   58  vim revert.txt
+   59  gcc main.c revert_string.c -o hello_world
+   60  cd lab2
+   61  cd src
+   62  cd revert_string
+   63  gcc main.c revert_string.c -o hello_world
+   64  ./hello_world
+   65  gcc main.c revert_string.c -o hello_world
+   66  git add revert_string.c
+   67  git commit -m'fdgdg'
+   68  git push origin master
+   69  gcc -c revert_string.c
+   70  ar rc libbibl1.a revert_string.o
+   71  runlib libbibl1.a 
+   72  ranlib libbibl1.a 
+   73  gcc -c main.c
+   74  gcc main.o -L. -lbibl1 -o rezult
+   75  ./rezult
+   76  gcc -fPIC -c revert_string.c
+   77  gcc -shared -o libbibldyn.so revert_string.o
+   78  gcc -c main.c
+   79  gcc main.o -L. -lbibldyn -o rezultdyn
+   80  ./rezultdyn
+   81  ldd rezultdyn
+   82  touch /etc/ld.so.conf
+   83  cat /etc/ld.so.conf
+   84  echo $LD_LIBRARY_PATH
+   85  LD_LIBRARY_PATH=/root
+   86  export LD_LIBRARY_PATH
+   87  ./rezultdyn
+   88  LD_LIBRARY_PATH=/root:${LD_LIBRARY_PATH}
+   89  export LD_LIBRARY_PATH
+   90  ./rezultdyn
+   91  LD_LIBRARY_PATH=""
+   92  export LD_LIBRARY_PATH
+   93  ./rezultdyn
+   94  cat /etc/ld.so.conf
+   95  include /etc/ld.so.conf.d/*.conf
+   96  git add .
+   97  git add ..
+   98  git commit -m'dgdgg'
+   99  git push 
+  100  LD_LIBRARY_PATH=$(pwd)
+  101  export LD_LIBRARY_PATH
+  102  ./rezultdyn
+  103  ./rezultdyn asd
+  104  gcc main.c revert_string.c -o hello_world
+  105  ./rezult acd
+  106  ./rezultdyn acd
+  107  gcc -fPIC -c revert_string.c
+  108  gcc main.o -L. -lbibldyn -o rezultdyn
+  109  ./rezultdyn acd
+  110  gcc -c revert_string.c
+  111  ar rc libbibstat.a 
+  112  ar rc libbibstat.a revert_string.o
+  113  ranlib libbibstat.a
+  114  gcc main.c -L. -lbibstat -o rezult
+  115  ./rezult acd
