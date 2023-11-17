@@ -1,0 +1,27 @@
+    1  cd ..
+    2  cd master
+    3  cd lab3
+    4  cd src
+    5  gcc sequentail_min_max.c -o rezult
+    6  cc sequentail_min_max.c -o rezult
+    7  cc sequential_min_max.c -o result
+    8  cc find_min_max.c -o result
+    9  make -f makefile
+   10  ./sequential_min_max
+   11  ./sequential_min_max 5
+   12  ./sequential_min_max 5 1 2 3 4 5
+   13  ./sequential_min_max 1 5
+   14  make -f makefile
+   15  ./parallel_min_max 
+   16  ./parallel_min_max 1 2
+   17  ./parallel_min_max 1
+   18  ./parallel_min_max 1 2 3
+   19  touch exec.c
+   20  git add ..
+   21  git commit -m'dvfbfd'
+   22  git push
+   23  cd lab3
+   24  cd src
+   25  make -f makefile 
+   26  ./find_min_max.o 1 5
+   27  ./find_min_max 1 5

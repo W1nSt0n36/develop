@@ -15,14 +15,16 @@ int main() {
         execlp("./sequential_min_max", "./sequential_min_max",  "1", "100", NULL);
         perror("execlp failed");
         exit(EXIT_FAILURE);
-    } else {
-        int status;
-        wait(&status);
-        if (WIFEXITED(status)) {
-            printf("Child process exited with status %d\n", WEXITSTATUS(status));
-        } else {
-            printf("Child process did not exit normally\n");
-        }
+        printf("Дочерний процесс: ", getpid());
+        sleep(5);
+        printf("Дочерний процесс завершен");
+    } 
+    else if (child_pid>0){
+        printf("Родительский процесс: ", getpid());
+        sleep(2);
+        printf("Родительский процесс завершен");
+        wait(NULL); // Ожидание завершения дочернего процесса
+        printf("Дочерний процесс завершен");
     }
 
     return 0;

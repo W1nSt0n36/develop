@@ -164,12 +164,12 @@ int main(int argc, char **argv) {
     }
 
     struct MinMax min_max;
-    min_max.min = INT_MAX;
-    min_max.max = INT_MIN;
+    min_max.min = INT_MIN;
+    min_max.max = INT_MAX;
 
     for (int i = 0; i < pnum; i++) {
-        int min = INT_MAX;
-        int max = INT_MIN;
+        int min = INT_MIN;
+        int max = INT_MAX;
 
         if (with_files) {     // read from files
             fread(&min,sizeof(int),1,fl);
